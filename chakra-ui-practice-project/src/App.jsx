@@ -4,15 +4,20 @@ import Navbar from './Component/Navbar'
 import Mainarea from './Component/Mainarea/Mainarea'
 import Section from './Component/Section/Section'
 import Secondsection from './Component/Secondsection/Secondsection'
+import ThirdSection from './Component/Thirdsection/ThirdSection'
+import Sectionjslogo from './Component/Mainarea/Sectionlogo/Sectionjslogo'
+
+
 
 const App = () => {
   return (
     <div>
-     <Navbar />
-     <Mainarea />
-     <Section />
-     <Secondsection />
-
+      <Navbar />
+      <Mainarea />
+      <Section />
+      <Secondsection />
+      <ThirdSection />
+      <Sectionjslogo />
     </div>
   )
 }
