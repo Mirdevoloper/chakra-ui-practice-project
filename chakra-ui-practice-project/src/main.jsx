@@ -9,7 +9,9 @@ import Navbar from './Component/Navbar.jsx'
 import Mainarea from './Component/Mainarea/Mainarea.jsx'
 import Section from './Component/Section/Section.jsx'
 import Secondsection from './Component/Secondsection/Secondsection.jsx'
-import Sectionjslogo from './Component/Mainarea/Sectionlogo/Sectionjslogo.jsx'
+
+import Testimonial from './Component/testimonial/Testimonial.jsx'
+import Sectionjslogo from './Component/Sectionlogo/Sectionjslogo.jsx'
 
 const router = createBrowserRouter([
   {
@@ -36,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "sectionjslogo",
         element: <Sectionjslogo />
+      },
+      {
+        path: "testimonial",
+        element:<Testimonial />
       }
     ]
   }

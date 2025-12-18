@@ -5,7 +5,9 @@ import Mainarea from './Component/Mainarea/Mainarea'
 import Section from './Component/Section/Section'
 import Secondsection from './Component/Secondsection/Secondsection'
 import ThirdSection from './Component/Thirdsection/ThirdSection'
-import Sectionjslogo from './Component/Mainarea/Sectionlogo/Sectionjslogo'
+
+import Testimonial from './Component/testimonial/Testimonial'
+import Sectionjslogo from './Component/Sectionlogo/Sectionjslogo'
 
 
 
@@ -18,6 +20,7 @@ const App = () => {
       <Secondsection />
       <ThirdSection />
       <Sectionjslogo />
+      <Testimonial />
     </div>
   )
 }
