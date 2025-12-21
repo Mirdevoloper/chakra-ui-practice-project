@@ -14,7 +14,7 @@ const ThirdSection = () => {
                     <Heading fontSize={'30px'} letterSpacing={'2px'} > Our Primary Service</Heading>
                 </Box>
 
-                <Grid templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }} gap="4" width={'1000px'} margin={'0px auto'} padding={'20px 0px'}>
+                <Grid templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }} gap="4" width={{base:'400px', md:'700px', lg:'1000px'}} margin={'0px auto'} padding={'20px 0px'}>
                     <Flex alignItems="center" direction="column" bg='#008080' padding={'30px 15px'} borderRadius={'5px'} textAlign={'center'}>
                         <Box fontSize={'30px'} mb='12px '>< FaShekelSign /></Box>
                         <Heading m='15px 0px ' color='#FFFFFF'>Visual Composer</Heading>

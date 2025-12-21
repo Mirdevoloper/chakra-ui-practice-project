@@ -7,18 +7,25 @@ const Testimonial = () => {
 
     return (
 
-        <Container  bg='#3A4742' padding={'80px 0px'}  w='100%'  >
+        <Container   padding={{base:'50px 30px', md:'100px 70px', lg:'150px 100px'}} >
 
 
-            <Box width={'1000px'} m='0px auto' >
+            <Box width={{base:'500px', md:'700px', lg:'1000px'}} bg='#3A4742' padding={{base:'30px 0px' , md:''}}>
 
-                <Box ml={{base:'20px', md:'', lg:''}} textAlign={{base:'center', md:'', lg:''}} fontWeight={'bold'} color='#fff' m='18px 0px'>
+                <Box ml={{ base: '70px' , md: '30px', lg: '20px' }} textAlign={{ base: 'left', md: 'center', lg: 'center' }} fontWeight={'bold'} color='#fff' >
                     <Heading fontSize={'3xl'} m='8px 0px' > Testimonials</Heading>
                     <Text color='#fff' letterSpacing={'0.5em'} >Happy Costumers</Text>
                 </Box>
 
-                <Grid  templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', lg: 'repeat(2, 1fr)' }} ml={{base:'200px', md:'', lg:''}}>
-                    <Box color='#fff' w='330px'  boxShadow={'md'}  p='12px 0px'>
+
+
+                <Grid templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', lg: 'repeat(2, 1fr)' }} padding={{base:'50px 30px', md:'100px 70px', lg:'150px 100px'}}>
+
+
+
+
+
+                    <Box color='#fff' w='330px' boxShadow={'md'} p='12px 0px'>
                         <Flex m='16px 0px' justifyContent={'center'} >
                             <Image src={manimg} alt='' w='150px' h='150px' borderRadius={'50%'} />
                         </Flex>
@@ -37,7 +44,7 @@ const Testimonial = () => {
 
                     </Box>
 
-                    <Box color='#fff' w='330px' boxShadow={'md'}  p='12px 0px'> 
+                    <Box color='#fff' w='330px' boxShadow={'md'} p='12px 0px'>
 
                         <Flex m='16px 0px' justifyContent={'center'} >
                             <Image src={manimg} alt='' w='150px' h='150px' borderRadius={'50%'} />
@@ -56,7 +63,7 @@ const Testimonial = () => {
                         </Box>
                     </Box>
 
-                    <Box color='#fff' w='330px' boxShadow={'md'}  p='12px 0px'>
+                    <Box color='#fff' w='330px' boxShadow={'md'} p='12px 0px'>
 
                         <Flex m='16px 0px' justifyContent={'center'} >
                             <Image src={manimg} alt='' w='150px' h='150px' borderRadius={'50%'} />
@@ -75,7 +82,7 @@ const Testimonial = () => {
                         </Box>
                     </Box>
 
-                    <Box color='#fff' w='330px' boxShadow={'md'}  p='12px 0px'>
+                    <Box color='#fff' w='330px' boxShadow={'md'} p='12px 0px'>
 
                         <Flex m='16px 0px' justifyContent={'center'} >
                             <Image src={manimg} alt='' w='150px' h='150px' borderRadius={'50%'} />
@@ -95,10 +102,10 @@ const Testimonial = () => {
 
                     </Box>
 
-                    
 
-                    
-                    
+
+
+
                 </Grid>
 
             </Box>

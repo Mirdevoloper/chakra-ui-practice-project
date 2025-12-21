@@ -14,7 +14,7 @@ const Sectionjslogo = () => {
 
             <Box >
 
-                <Box textAlign={{base:'center' , md:'auto'}} ml={{base: '50px'}} >
+                <Box textAlign={{base:'center' , md:'auto', lg:'auto'}} ml={{base: '50px'}} >
                     <Heading fontSize={'56px'} fontWeight={'bold'} padding={'50px 0px'}>Course Pricing</Heading>
                 </Box>
 
