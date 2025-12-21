@@ -15,10 +15,10 @@ const Sectionjslogo = () => {
             <Box >
 
                 <Box textAlign={{base:'center' , md:'auto', lg:'auto'}} ml={{base: '50px'}} >
-                    <Heading fontSize={'56px'} fontWeight={'bold'} padding={'50px 0px'}>Course Pricing</Heading>
+                    <Heading fontSize={{base:'24px', md:'45px', lg:'56px'}} fontWeight={'bold'} padding={'50px 0px'}>Course Pricing</Heading>
                 </Box>
 
-                <Flex  flexDirection={{base:'column', md:'row', lg:'row'}}  ml={{base: '150px'}}>
+                <Flex  flexDirection={{base:'column', md:'row', lg:'row'}}  ml={{base: '50px'}}>
                     
                     <Box textAlign={{base:'center' , md:'auto'}} w='300px' m='12px' boxShadow={'2xl'} >
                         <Flex justifyContent={'center'}>

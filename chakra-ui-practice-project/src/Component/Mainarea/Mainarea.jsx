@@ -27,10 +27,10 @@ const Mainarea = () => {
                     >
                         You Can Learn Codeing</Text>
                     <Box
-                        width={{base:'200px', md:'500', lg:'500px' }}
+                        width={{base:'200px', md:'500px', lg:'500px' }}
                         bg={'#402222'}
                         py={4}
-                        mx={{ sm: 'auto', md: 'auto', lg: 'auto' }}
+                      m={{base:'auto'}}
                         mt={'50px'}
                         color={'#C2533D'}
                         fontWeight={'bold'}

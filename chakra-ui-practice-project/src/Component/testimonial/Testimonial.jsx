@@ -7,7 +7,7 @@ const Testimonial = () => {
 
     return (
 
-        <Container   padding={{base:'50px 30px', md:'100px 70px', lg:'150px 100px'}} >
+        <Container   >
 
 
             <Box width={{base:'500px', md:'700px', lg:'1000px'}} bg='#3A4742' padding={{base:'30px 0px' , md:''}}>
